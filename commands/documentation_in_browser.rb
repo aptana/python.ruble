@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Documentation in Browser' do |cmd|
+command t(:docs_in_browser) do |cmd|
   cmd.key_binding = 'M4+M2+H'
   cmd.scope = 'source.python'
   cmd.output = :show_as_html

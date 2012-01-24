@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Run Script' do |cmd|
+command t(:run_script) do |cmd|
   cmd.key_binding = 'M1+R'
   cmd.scope = 'source.python'
   cmd.output = :show_as_html

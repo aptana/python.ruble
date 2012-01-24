@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'New Method/Function' do |cmd|
+command t(:new_method_function) do |cmd|
   cmd.key_binding = 'M2+ENTER'
   cmd.scope = 'source.python'
   cmd.output = :insert_as_snippet

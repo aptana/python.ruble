@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Debug Script in Terminal' do |cmd|
+command t(:debug_script_in_terminal) do |cmd|
   cmd.key_binding = 'M1+M2+D'
   cmd.scope = 'source.python'
   cmd.output = :discard

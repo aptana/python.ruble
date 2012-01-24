@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Execute Line/Selection as Python' do |cmd|
+command t(:execute_as_python) do |cmd|
   cmd.key_binding = 'M4+M2+E'
   cmd.scope = 'source.python'
   cmd.output = :insert_as_text

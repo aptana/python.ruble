@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Validate Syntax (PyCheckMate)' do |cmd|
+command t(:validate_syntax) do |cmd|
   cmd.key_binding = 'M4+M2+V'
   cmd.scope = 'source.python'
   cmd.output = :show_as_html

@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Show Symbol' do |cmd|
+command t(:show_symbol) do |cmd|
   cmd.key_binding = 'M4+M3+P'
   cmd.scope = 'source.python'
   cmd.output = :show_as_tooltip

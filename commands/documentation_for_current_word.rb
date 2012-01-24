@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Documentation for Current Word' do |cmd|
+command t(:docs_for_word) do |cmd|
   cmd.key_binding = 'M4+H'
   cmd.scope = 'source.python'
   cmd.output = :show_as_html

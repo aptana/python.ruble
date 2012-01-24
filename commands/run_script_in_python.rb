@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Run Script (Terminal)' do |cmd|
+command t(:run_script_terminal) do |cmd|
   cmd.key_binding = 'M1+M2+R'
   cmd.scope = 'source.python'
   cmd.output = :discard

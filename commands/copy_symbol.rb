@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Copy Symbol' do |cmd|
+command t(:copy_symbol) do |cmd|
   cmd.key_binding = 'M4+M3+C'
   cmd.scope = 'source.python'
   cmd.output = :discard

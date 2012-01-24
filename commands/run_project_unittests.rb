@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Run Project Unit Tests' do |cmd|
+command t(:run_project_unit_tests) do |cmd|
   cmd.key_binding = 'M3+M1+M2+R'
   cmd.scope = 'source.python'
   cmd.output = :show_as_html

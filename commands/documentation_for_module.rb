@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Documentation for Module' do |cmd|
+command t(:docs_for_module) do |cmd|
   cmd.key_binding = 'F3'
   cmd.scope = 'source.python'
   cmd.output = :show_as_html

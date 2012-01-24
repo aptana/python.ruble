@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Cleanup Whitespace' do |cmd|
+command t(:cleanup_whitespace) do |cmd|
   cmd.scope = 'source.python'
   cmd.output = :replace_selection
   cmd.input = :selection
